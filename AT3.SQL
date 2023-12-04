@@ -1,0 +1,16 @@
+-- desc EMPLOYEES
+--  Nom                                       NULL ?   Type
+--  ----------------------------------------- -------- ----------------------------
+--  EMPLOYEE_ID                               NOT NULL NUMBER(6)
+--  FIRST_NAME                                         VARCHAR2(20)
+--  LAST_NAME                                 NOT NULL VARCHAR2(25)
+--  EMAIL                                     NOT NULL VARCHAR2(25)
+--  PHONE_NUMBER                                       VARCHAR2(20)
+--  HIRE_DATE                                 NOT NULL DATE
+--  JOB_ID                                    NOT NULL VARCHAR2(10)
+--  SALARY                                             NUMBER(8,2)
+--  COMMISSION_PCT                                     NUMBER(2,2)
+--  MANAGER_ID                                         NUMBER(6)
+--  DEPARTMENT_ID                                      NUMBER(4)
+-- 1-	Insérer l’employé ‘PATRICK’ de code 521, de job SA_MAN, de manager_id 124, de salaire 5000 et de commission 0.12. Il a été embauché aujourd’hui et il travaille dans le département 10 
+INSERT INTO EMPLOYEES VALUES( 521 , 'PATRICK' , )
